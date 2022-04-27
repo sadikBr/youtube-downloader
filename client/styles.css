@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anonymous Pro';
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header-container {
+  width: 80%;
+  height: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 4rem;
+}
+
+.logo .highlight {
+  color: rgb(218, 39, 39);
+}
+
+.navigation .links-list {
+  list-style: none;
+  display: flex;
+}
+
+.links-list .link {
+  margin-left: 1rem;
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 2px solid white;
+  transition: all 0.125s ease-in-out;
+}
+.links-list .link:hover {
+  border-color: rgb(218, 39, 39);
+}
+
+.links-list .link a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+}
+
+.content-container {
+  width: 80%;
+  min-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content-container .title {
+  font-size: 4rem;
+  color: rgb(218, 39, 39);
+  margin-bottom: 1.75rem;
+}
+
+.content-container .subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(214, 90, 90);
+  margin-bottom: 2rem;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  height: 2.7rem;
+  margin-bottom: 4rem;
+}
+
+.search-form .link-input {
+  flex: 1;
+  padding: 0.2rem;
+  height: 100%;
+  font-size: 1rem;
+  border: 1px solid rgb(214, 90, 90);
+  outline: none;
+  border-radius: 3px;
+}
+
+.search-form .btn {
+  cursor: pointer;
+  padding: 0.75rem 4rem;
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: rgb(214, 90, 90);
+  color: white;
+  border-radius: 3px;
+  transition: all 0.25s ease-in-out;
+}
+.search-form .btn:hover {
+  background: rgb(218, 39, 39);
+}
+
+.loading {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.results {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.video-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.thumbnail {
+  margin-right: 1rem;
+}
+
+.info-container {
+  flex: 1;
+}
+
+.info-container h4 {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.info-container p {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.format-select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.75rem 4rem;
+  margin-left: 0.25rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: rgb(214, 90, 90);
+  color: white;
+  border-radius: 3px;
+  transition: all 0.25s ease-in-out;
+}
+.button:hover {
+  background: rgb(218, 39, 39);
+}
+
+.video-embed {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 2rem;
+}
